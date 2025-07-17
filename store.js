@@ -17,9 +17,12 @@ function loadingAnimationToggle(isLoading){
 
 
 const loadPhone = async(searchText) => {
-     const res = await fetch(` 
-        https:openapi.programming-hero.com/api/phones?search=${searchText}
-    `);
+   const res = await fetch(`
+      https://openapi.programming-hero.com/api/phones?search=${searchText}
+      `)
+    // const res = await fetch(` 
+   //     https:openapi.programming-hero.com/api/phones?search=${searchText} 
+   // `);
     console.log("Server Response: ",res);
      const serverData = await res.json();
      displayPhone(serverData.data);
