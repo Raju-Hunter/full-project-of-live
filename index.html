@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My API Store</title>
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+<script
+src="https://kit.fontawesome.com/946cabd75f.js"
+crossorigin="anonymous"
+></script>
+</head>
+<body>
+    <header>
+    <h1>My API Store</h1>
+    <button class="btn">Sing Up</button>
+    </header>
+
+    <main>
+     <!--highlights section-->   
+        <section id="highlights-section">      
+            <h2>Motorola Moto G85 5G</h2> 
+            <div class="Pra">
+            <P>
+                Motorola is one of the most iconic groundbreaking role in developing the first handheld mobile phone in 1973.
+            </P>
+            </div>
+            <div id="buy-now-button">
+                <button class="btn"> Bye now</button>
+            </div>
+         </section>
+
+       <!--cover image section-->
+       
+       <section>
+         <div id="cover-image-section">
+        <img src="./photo/jx7n1p7egy3t4mdwawo1pmv28i0nhp744023.avif" alt="motorola-image"/>
+        </div>
+       </section>
+       <!--search section-->
+       <section id="search-section">
+        <h2> Search Your Phone</h2>
+
+        <div id="search-containar">
+            <div id="search-bar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="search-input-filed" type="text" placeholder="Sacrch your phone">
+            </div>
+            <div id="search-button">
+                <button onclick="handleSearch()" class="btn">Search</button>
+            </div>
+
+        </div>
+       </section>
+
+       <!--Loading animation section-->
+       <section id="loading-section">
+         <div id="loader-animation" class="loader hidden">
+
+
+         </div>
+       </section>
+
+       <!--Card section-->
+       <section id="card-section">
+        <!--card-->
+        <div class="card">
+             <div class="card-image">
+                <img src="./photo/motorola-edge-50-pro-PDP-ecomm-render-color1-12-tq9uwkce.png" alt="motorola-image"/>
+             </div>
+             <h3 class="card-title">Motorola Moto Pro</h3> 
+             <P class="card-description">
+                Motorola smartphones offer excellent value for money, combining powerful hardware with sleek design.
+             </P>
+             <div class="card-price">
+                <span>$</span>
+                <span id="card-item-price">570</span>
+                
+             </div>
+             <div class="card-button">
+                <button class="btn">Show Details</button>
+
+             </div>
+
+        </div>
+        <!--card-->
+        <div class="card">
+             <div class="card-image">
+                <img src="./photo/motorola-edge-50-pro-PDP-ecomm-render-color1-12-tq9uwkce.png" alt="motorola-image"/>
+             </div>
+             <h3 class="card-title">Motorola Moto Pro</h3> 
+             <P class="card-description">
+                Motorola smartphones offer excellent value for money, combining powerful hardware with sleek design.
+             </P>
+             <div class="card-price">
+                <span>$</span>
+                <span id="card-item-price">570</span>
+                
+             </div>
+             <div class="card-button">
+                <button class="btn">Show Details</button>
+
+             </div>
+
+        </div>
+        <!--card-->
+        <div class="card">
+             <div class="card-image">
+                <img src="./photo/motorola-edge-50-pro-PDP-ecomm-render-color1-12-tq9uwkce.png" alt="motorola-image"/>
+             </div>
+             <h3 class="card-title">Motorola Moto Pro</h3> 
+             <P class="card-description">
+                Motorola smartphones offer excellent value for money, combining powerful hardware with sleek design.
+             </P>
+             <div class="card-price">
+                <span>$</span>
+                <span id="card-item-price">570</span>
+                
+             </div>
+             <div class="card-button">
+                <button class="btn">Show Details</button>
+
+             </div>
+
+        </div>
+         <!--card-->
+        <div class="card">
+             <div class="card-image">
+                <img src="./photo/motorola-edge-50-pro-PDP-ecomm-render-color1-12-tq9uwkce.png" alt="motorola-image"/>
+             </div>
+             <h3 class="card-title">Motorola Moto Pro</h3> 
+             <P class="card-description">
+                Motorola smartphones offer excellent value for money, combining powerful hardware with sleek design.
+             </P>
+             <div class="card-price">
+                <span>$</span>
+                <span id="card-item-price">570</span>
+                
+             </div>
+             <div class="card-button">
+                <button class="btn">Show Details</button>
+
+             </div>
+
+        </div>
+        <!--card-->
+        <div class="card">
+             <div class="card-image">
+                <img src="./photo/motorola-edge-50-pro-PDP-ecomm-render-color1-12-tq9uwkce.png" alt="motorola-image"/>
+             </div>
+             <h3 class="card-title">Motorola Moto Pro</h3> 
+             <P class="card-description">
+                Motorola smartphones offer excellent value for money, combining powerful hardware with sleek design.
+             </P>
+             <div class="card-price">
+                <span>$</span>
+                <span id="card-item-price">570</span>
+                
+             </div>
+             <div class="card-button">
+                <button class="btn">Show Details</button>
+
+             </div>
+
+        </div>
+        <!--card-->
+        <div class="card">
+             <div class="card-image">
+                <img src="./photo/6097a896acb187a36471981c2626314884a20569.avif" alt="motorola-image"/>
+             </div>
+             <h3 class="card-title">Motorola Moto Pro</h3> 
+             <P class="card-description">
+                Motorola smartphones offer excellent value for money, combining powerful hardware with sleek design.
+             </P>
+             <div class="card-price">
+                <span>$</span>
+                <span id="card-item-price">570</span>
+                
+             </div>
+             <div class="card-button">
+                <button class="btn">Show Details</button>
+
+             </div>
+
+        </div>
+
+       </section>
+       <section>
+       <div class="container">
+    <div class="top">
+      <div class="left">
+        <h1>My API Store</h1>
+        <p>Learn How to use API Store</p>
+      </div>
+      <div class="right">
+        <div class="social-icons">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="X" />
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" />
+        </div>
+        <button class="btn">Join Premium</button>
+      </div>
+    </div>
+
+       </section>
+
+       <section>
+         <div class="grid">
+      <div class="column">
+        <p>Products</p>
+        <p>Browse Jobs</p>
+        <p>Remote Jobs</p>
+        <p>Company Jobs</p>
+        <p>Startup Jobs</p>
+      </div>
+      <div class="column">
+        <p>Products</p>
+        <p>Browse Jobs</p>
+        <p>Remote Jobs</p>
+        <p>Company Jobs</p>
+        <p>Startup Jobs</p>
+      </div>
+      <div class="column">
+        <p>Products</p>
+        <p>Browse Jobs</p>
+        <p>Remote Jobs</p>
+        <p>Company Jobs</p>
+        <p>Startup Jobs</p>
+      </div>
+      <div class="column">
+        <p>Products</p>
+        <p>Browse Jobs</p>
+        <p>Remote Jobs</p>
+        <p>Company Jobs</p>
+        <p>Startup Jobs</p>
+      </div>
+    </div>
+ 
+       </section>
+
+    </main>
+    
+    <script src="./store.js"></script>
+
+</body>
+</html>
